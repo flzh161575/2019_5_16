@@ -213,7 +213,7 @@ body .active {
     float: left;
     color: #666;
     padding: 20px 20px 0 20px;
-    background: url("../images/carl_bg.png") 10px 6px;
+    background: url("../images/carl_bg.png") 0px 0px;
     background-size: 520px 175px;
 
 }
