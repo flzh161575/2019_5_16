@@ -57,7 +57,7 @@ header {
 
 }
 
-body .active {
+.left> .active {
     background: white;
     color: #3b8de3;
     border-top: 3px solid antiquewhite;
@@ -193,17 +193,25 @@ body .active {
  .mod-bd a{
      text-decoration: none;
      float: left;
+     color: black;
      width: 10%;
      height: 40px;
      margin-top: 20px;
+     text-align: center;
+     line-height: 40px;
+     display: block;
  }
-
+body .nati{
+    background: #cde2e3;
+    color: #040dff;
+    border-bottom: 0 solid #3860fa;
+}
 .mod-bd a:hover{
     background: #cde2e3;
     color: #fff;
 }
 .list{
-    width:1180px ;
+    width:1050px ;
     height: 310px;
     margin: auto;
     position: relative;
@@ -266,6 +274,10 @@ body .active {
     color: red;
     font-size: 24px;
 }
+
+
+
+
 
 
 
